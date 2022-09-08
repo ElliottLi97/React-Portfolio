@@ -17,8 +17,8 @@ function Projects(props) {
           <img className='projectImage' src={Medical} alt="Profile Picture" />
           <div className='projectInfoContainer'>
             <div className='projectLinks'>
-              <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">Medical Portal</a>
-              <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://medicalportalgroup2.herokuapp.com/" target="_blank" rel="noopener noreferrer">Medical Portal</a>
+              <a href="https://github.com/ElliottLi97/Medical-Portal" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
@@ -29,8 +29,8 @@ function Projects(props) {
           <img className='projectImage' src={Crime} alt="Profile Picture" />
           <div className='projectInfoContainer'>
             <div className='projectLinks'>
-              <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">Crime Watch</a>
-              <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://elliottli97.github.io/Crime-Watch/" target="_blank" rel="noopener noreferrer">Crime Watch</a>
+              <a href="https://github.com/ElliottLi97/Crime-Watch" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
@@ -41,8 +41,8 @@ function Projects(props) {
           <img className='projectImage' src={NoteTaker} alt="Profile Picture" />
           <div className='projectInfoContainer'>
             <div className='projectLinks'>
-              <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">Express Note Taker</a>
-              <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://peaceful-wildwood-97461.herokuapp.com/" target="_blank" rel="noopener noreferrer">Express Note Taker</a>
+              <a href="https://github.com/ElliottLi97/Express-Note-Taker" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
               <div className='projectDetails'>Express</div>
@@ -55,8 +55,8 @@ function Projects(props) {
           <img className='projectImage' src={TechBlog} alt="Profile Picture" />
           <div className='projectInfoContainer'>
             <div className='projectLinks'>
-              <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">Tech Blog</a>
-              <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://techblogexpressproject.herokuapp.com/" target="_blank" rel="noopener noreferrer">Tech Blog</a>
+              <a href="https://github.com/ElliottLi97/Tech-Blog" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
@@ -67,8 +67,8 @@ function Projects(props) {
           <img className='projectImage' src={WeatherDash} alt="Profile Picture" />
           <div className='projectInfoContainer'>
             <div className='projectLinks'>
-              <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">Weather Display</a>
-              <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://elliottli97.github.io/Weather-Display/" target="_blank" rel="noopener noreferrer">Weather Display</a>
+              <a href="https://github.com/ElliottLi97/Weather-Display" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
@@ -79,8 +79,8 @@ function Projects(props) {
           <img className='projectImage' src={WorkDayScheduler} alt="Profile Picture" />
           <div className='projectInfoContainer'>
             <div className='projectLinks'>
-              <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">Schedule App</a>
-              <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://elliottli97.github.io/Work-Day-Calendar/" target="_blank" rel="noopener noreferrer">Schedule App</a>
+              <a href="https://github.com/ElliottLi97/Work-Day-Calendar" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>

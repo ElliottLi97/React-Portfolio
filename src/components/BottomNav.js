@@ -9,7 +9,7 @@ function BottomNav(props) {
         <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/ElliottLi97" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>
