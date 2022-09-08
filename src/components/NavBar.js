@@ -17,7 +17,7 @@ function NavBar(props) {
       <a id='NavLink' href="/">About Me</a>
       <a id='NavLink' href="/projects">Projects</a>
       <a id='NavLink' target="_blank" rel="noopener noreferrer" href="/files/ElliottsResume.pdf">Resume </a>
-      <a id='NavLink' href="mailto:elliottli.job@gmail.com">elliottli.job@gmail.com</a>
+      <a id='NavLink' href="mailto:elliottli.job@gmail.com">Email Me</a>
       </div>
       </span>
     </nav>
