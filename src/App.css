@@ -2,30 +2,37 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
+
+
 body {
-  background-color: whitesmoke;
+  background-color: rgb(32,58,92);
+  margin:0;
+  padding:0;
+  color: white;
+  min-height: 100vh;
+  position: relative;
 }
 
 .bucket-app {
-  display: flex;
+  display: grid;
+  /* display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  min-height: 600px;
-  background: gray;
+  justify-content: flex-start; */
+  min-height: 180px;
+  background: rgb(32,58,92);
   text-align: center;
-  margin: 32px auto;
-  border-radius: 20px;
-  padding-bottom: 32px;
+  height: 100vh;
+  position: static;
+  grid-template-rows: auto 1fr auto;
 }
 
 h1 {
-  margin: 32px 0;
-  color: #fff;
-  font-size: 24px;
+
+  font-size: 72px;
 }
 
 h3 {
@@ -195,16 +202,181 @@ h3 {
 
 
 .NavBar{
-  background-color: #ec5700;
+  background-color: rgb(103,115,130);
   display: flex;
+  width: 100%;
+  position: static;
 }
 
 #NavTitle{
 max-width: 20%;
 min-width: 15%;
+margin: 0 15% 0 5%;
 }
 
-#NavLinks{
-max-width: 80%;
-min-width: 75%;
+#NavLinkContainer {
+  display: flex;
+  width: 450px;
+  justify-content: right;
+}
+
+#NavLink{
+  text-align: center;
+  margin: auto;
+}
+
+
+.ProjectCard{
+  width: fit-content;
+}
+.ProjectCard:hover .projectInfoContainer{
+  opacity: .9;
+}
+
+.projectImage{
+  position: static;
+  max-width: 80%;
+
+}
+.projectInfoContainer{
+  position: absolute;
+  top:0%;
+  left: 10%;
+  opacity: 0;
+  transition: .5s ease;
+  width: 80%;
+  aspect-ratio: 16/9;
+  border: rgb(103,115,130) 8px solid;
+}
+
+.projectLinks{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  aspect-ratio: 16/9;
+  display: flex;
+}
+
+.relative {
+  position: relative;
+
+} 
+
+.ProjectsContainer{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 5% 0 5% 0;
+}
+
+.iconLinks{
+  display: inline-block;
+}
+
+a { 
+  text-decoration: none; 
+  color: white;
+  margin: 0 1% 0 1%;
+  height: fit-content;
+  background-color: rgb(103,115,130);
+  border-radius: 3px;
+  padding: 0 3px;
+ }
+
+ .BottomNav{
+  /* height: 50px; */
+  background: rgb(103,115,130);
+  bottom: 0;
+  width:100%
+ }
+
+ .projectDetails{
+  position: absolute;
+  top: 25%;
+  left: 7%;
+  color: white;
+  background-color: rgb(103,115,130);
+  border-radius: 3px;
+  padding: 0 3px;
+ }
+
+ .JustifyRight{
+  display: flex;
+  justify-content: right;
+  width: 60%;
+ }
+
+ #TitleAndImageContainer{
+  display: flex;
+  flex-direction: row;
+  padding: 2% 0 0 2%;
+ }
+
+ #AboutMeImage{
+  margin: 0;
+ }
+
+ #AboutMeTitle{
+  width: calc(100% - 182px);
+  padding-right: 4%;
+ }
+
+ #AboutMeBody{
+  padding-left: calc(2% + 182px);
+  width: 100%;
+  text-align: left;
+  padding-right: 4%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+ }
+
+ .container{
+  padding: 0;
+  position: static;
+ }
+
+
+ @media only screen and (max-width: 768px) {
+
+  #TitleAndImageContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1%;
+   }
+
+   #AboutMeBody{
+    width: 100%;
+    text-align: left;
+    padding: 0 6%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+   }
+
+   #AboutMeTitle{
+    width: 100%;
+    padding:0 ;
+   }
+
+   .ProjectsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5% 0 5% 0;
+  }
+
+  .projectInfoContainer{
+    position: absolute;
+    top:0%;
+    left: 10%;
+    opacity: 1;
+    transition: .5s ease;
+    width: 80%;
+    aspect-ratio: 16/9;
+    border: rgb(103,115,130) 3px solid;
+  }
+  
 }

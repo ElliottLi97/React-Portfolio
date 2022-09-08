@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
-
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 function BottomNav(props) {
 
   return     (
     <nav className="BottomNav">
       <div id='NavLinks'>
-        Links
+        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
       </div>
     </nav>
 )}
